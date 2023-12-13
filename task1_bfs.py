@@ -46,8 +46,8 @@ def solve(grid, start, end):
 
   return None
 
-# start = .*
-# end = *.
+# start = !*
+# end = *!
 # selected path = *
 # unselected path = .
 # obstacle = #

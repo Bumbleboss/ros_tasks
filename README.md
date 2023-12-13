@@ -12,8 +12,8 @@ Preview:</br>
 ![Breadth First Search Input / Output grid](res/bfs_io.png)
 
 Definition:</br>
-start = .*
-end = *.
+start = !*
+end = *!
 selected path = *
 unselected path = .
 obstacle = #
