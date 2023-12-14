@@ -17,14 +17,19 @@ python3 task1_dfs.py
 Preview:</br>
 ![Depth First Search Input / Output grid](res/dfs_io.png)
 
-Definition:</br>
-start = !*
-end = *!
-selected path = *
-unselected path = .
-obstacle = #
+**Grid points definition:**
+- Start point = !*
+- End point = *!
+- Traversed point = *
+- Untraversed point = .
+- Obstacle = #
 
-**You can find how the code works by reading the file's documentation.**
+**Functions present in the code its description:**
+- `verify`: verify if cell is an open space or not
+- `solve`: solve for grid to find shortest path using dfs algorithm 
+- `print_grid`: prints grid with/without path argument
+- `main`: run the code with provided variables
+
 ## Breadth First Search (BFS)
 To run command
 ```
@@ -34,11 +39,15 @@ python3 task1_bfs.py
 Preview:</br>
 ![Breadth First Search Input / Output grid](res/bfs_io.png)
 
-Definition:</br>
-start = !*
-end = *!
-selected path = *
-unselected path = .
-obstacle = #
+**Grid points definition:**
+- Start point = !*
+- End point = *!
+- Traversed point = *
+- Untraversed point = .
+- Obstacle = #
 
-**You can find how the code works by reading the file's documentation.**
+**Functions present in the code its description:**
+- `verify`: verify if cell is an open space or not
+- `solve`: solve for grid to find shortest path using bfs algorithm 
+- `print_grid`: prints grid with/without path argument
+- `main`: run the code with provided variables
